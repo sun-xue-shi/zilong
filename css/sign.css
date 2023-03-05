@@ -1,0 +1,192 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.signin {
+    min-width: 1200px;
+    height: 485px;
+    background-color: #7e00ff;
+}
+
+.left {
+    position: relative;
+    float: left;
+    height: 485px;
+    width: 650px;
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 30px;
+}
+
+.search {
+    position: absolute;
+    top: 388px;
+    left: 225px;
+    width: 259px;
+    height: 34px;
+    border: 2px solid #b1191a;
+}
+
+.search input {
+    float: left;
+    width: 175px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: right;
+    height: 30px;
+    width: 80px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+.right {
+    float: right;
+    width: 380px;
+    height: 360px;
+    margin-top: 60px;
+    margin-right: 70px;
+    background-color: #fff;
+}
+
+.right ul li {
+    margin: 15px 35px;
+    width: 300px;
+}
+
+.right ul li h3 {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.right ul li h3::after {
+    position: absolute;
+    top: 6px;
+    left: 88px;
+    float: left;
+    content: '';
+    background-color: #ccc;
+    width: 1px;
+    height: 20px;
+    margin-left: 50px;
+}
+
+.right ul li p {
+    display: inline-block;
+    margin-left: 130px;
+    font-size: 18px;
+    color: #b1191a;
+}
+
+.text {
+    width: 300px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #fffdee;
+    border: 1px solid #f5eecf;
+}
+
+.right ul li .input {
+    width: 300px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #b3b3b3;
+}
+
+.right ul li .input:hover {
+    border: 1px solid #1474af;
+}
+
+.right ul li .input .img {
+    float: left;
+    margin-right: 5px;
+    text-align: center;
+    width: 38px;
+    height: 34px;
+    background-color: #cfcdcd;
+}
+
+.agree {
+    padding-left: -20;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.agree a {
+    float: right;
+    color: #1474af;
+}
+
+.btn {
+    width: 300px;
+    height: 40px;
+    background-color: #c81523;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.regist {
+    width: 300px;
+    height: 42px;
+}
+
+.regist_left {
+    float: left;
+    width: 190px;
+    height: 36px;
+    margin-top: 14px;
+}
+
+.regist .regist_left img {
+    width: 100%;
+}
+
+.regist a {
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 42px;
+    margin-top: 10px;
+    margin-right: 5px;
+    color: #1474af;
+    font-size: 14px;
+}
+
+.mod_copyright {
+    float: left;
+    padding-top: 20px;
+    padding-left: 115px;
+    text-align: center;
+}
+
+.mod_copyright .link ul li {
+    float: left;
+}
+
+.mod_copyright .link ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    margin: 5px 15px 0 15px;
+    background-color: #999;
+}

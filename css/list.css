@@ -1,0 +1,148 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e902';
+}
+
+.sk_bd ul li {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-right: 13px;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li p {
+    text-align: center;
+    margin: 5px 15px;
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+.sk_bd ul li .money {
+    position: absolute;
+    left: 23px;
+    top: 350px;
+    float: left;
+    font-size: 14px;
+    color: #e60012;
+}
+
+.sk_bd ul li h4 {
+    margin-left: 35px;
+    font-size: 22px;
+    color: #e60012;
+}
+
+.sk_bd ul li h5 {
+    position: absolute;
+    left: 100px;
+    top: 351px;
+    font-size: 14px;
+    color: #a4a4a4;
+}
+
+.sk_bd ul li h6 {
+    float: left;
+    margin-left: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #adadad;
+}
+
+.sk_bd ul li .txt,
+.sk_bd ul li .style_red {
+    font-size: 14px;
+}
+
+.sk_bd ul li .txt {
+    color: #adadad;
+}
+
+.bar {
+    float: left;
+    width: 110px;
+    height: 15px;
+    margin: 4px 10px;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+
+.bar_in {
+    width: 50%;
+    height: 100%;
+    border-radius: 7px;
+    background-color: red;
+    transition: width .5s ease;
+}
+
+.bar:hover .bar_in {
+    width: 87%;
+}
+
+.sk_bd ul li .buy {
+    width: 290px;
+    height: 50px;
+    margin-top: 12.5px;
+    background-color: red;
+}
+
+.sk_bd ul li .buy p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+}
